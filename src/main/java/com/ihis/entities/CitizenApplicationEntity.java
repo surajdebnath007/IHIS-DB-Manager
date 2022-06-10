@@ -8,8 +8,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
+
 @Entity
 @Table(name = "CITIZEN_APPLICATION")
+@Data
 public class CitizenApplicationEntity {
 
 	@Id
